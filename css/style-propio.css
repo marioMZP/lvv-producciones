@@ -1,0 +1,42 @@
+/* INDEX */
+body {
+    background-color: #3b3a3a;
+}
+.offcanvas-header {
+    background-color: #3b3a3a;
+    color: white;
+}
+.offcanvas-body {
+    background-color: #3b3a3a;
+    color: white;
+}
+.segmento {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.small {
+    color: white;
+}
+
+/* NINIOMAFIA*/
+.titulo {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    width: 100%;
+}
+#segmento {
+    display: flex;   
+}
+.ninio__description {
+    color: white;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
