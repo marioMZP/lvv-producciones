@@ -21,6 +21,7 @@ body {
 
 /* NINIOMAFIA*/
 .titulo {
+    color: #726f6f;
     display: flex;
     margin-top: 70px;
     justify-content: center;
@@ -46,6 +47,7 @@ body {
     margin: 20px 40px;
 }
 
+
 footer {
     position: relative;
     bottom: 0;
@@ -56,6 +58,7 @@ footer {
 @media screen and (min-width: 1024px) {
     #principal {
         display: flex;
+        margin-top: 50px;
         max-height: min-content;
     }
 }
@@ -82,3 +85,25 @@ footer {
     }
 }
 
+/* ANIMACION */
+@keyframes mi-animacion {
+    0% { color: #726f6f; }
+    10% { color: #4d4a4a; }
+    20% { color: #3a3838; }
+    30% { color: #222121; }
+    40% { color: #141414; }
+    50% { color: #000000; }
+    60% { color: #141414; }
+    70% { color: #222121; }
+    80% { color: #3a3838; }
+    90% { color: #4d4a4a; }
+    100% { color: #726f6f; }
+}
+
+.titulo {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
