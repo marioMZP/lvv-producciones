@@ -19,7 +19,7 @@ body {
 
 .bajada {
     display: flex;
-    margin-top: 20px;
+    margin-top: 80px;
     flex-direction: column;
     text-align: center;
 }
@@ -30,6 +30,7 @@ body {
 .bajada p {
     color: white;
     font-size: medium;
+}.bajada a {
     text-decoration: none;
 }
 .segmento {
@@ -50,19 +51,22 @@ body {
 
 footer div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 footer div p {
     margin-top: 5px;
     margin-bottom: auto;
     text-align: center;
 }
+footer img {
+    width: 50px;
+}
 
 /* NINIOMAFIA*/
 .titulo {
     color: #726f6f;
     display: flex;
-    margin-top: 30px;
+    margin-top: 70px;
     justify-content: center;
     width: 100%;
 }
@@ -91,6 +95,7 @@ footer div p {
     max-width: 50px;
     max-height: none;
 }
+
 
 
 
