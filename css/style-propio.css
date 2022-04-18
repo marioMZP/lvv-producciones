@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* INDEX */
 body {
     background-color: #3b3a3a;
@@ -15,8 +20,26 @@ body {
     text-align: center;
     color: white;
 }
+.segmento h2 {
+    color: #726f6f;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    width: 100%;
+    font-size: 45px;
+}
 .small {
     color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+footer div p {
+    margin-top: 5px;
+    margin-bottom: auto;
+    text-align: center;
 }
 
 /* NINIOMAFIA*/
@@ -42,17 +65,20 @@ body {
 	width: 100%;
 }
 .ninio__description {
+    display: inline-block;
+    padding: 15px;
     color: white;
     text-align: center;
     margin: 20px 40px;
 }
-
-
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.ninio__description img {
+    max-width: 50px;
+    max-height: none;
 }
+
+
+
+
 
 /* RESPONSIVE NINIO*/
 @media screen and (min-width: 1024px) {
@@ -78,14 +104,14 @@ footer {
         position: absolute;
         top: 0;
         width: 100%;
-    }footer {
-        position: static;
-        bottom: 0;
-        width: 100%;
+    }
+    footer {
+        display: contents;
+        justify-content: baseline;
     }
 }
 
-/* ANIMACION */
+/* ANIMACION NINIO */
 @keyframes mi-animacion {
     0% { color: #726f6f; }
     10% { color: #4d4a4a; }
@@ -107,3 +133,26 @@ footer {
     animation-duration: 4s;
     animation-delay: 1s;
 }
+/* ANIMACIONES-INDEX */
+@keyframes mi-animacion {
+    0% { color: #726f6f; }
+    10% { color: #4d4a4a; }
+    20% { color: #3a3838; }
+    30% { color: #222121; }
+    40% { color: #141414; }
+    50% { color: #000000; }
+    60% { color: #141414; }
+    70% { color: #222121; }
+    80% { color: #3a3838; }
+    90% { color: #4d4a4a; }
+    100% { color: #726f6f; }
+}
+
+.segmento h2 {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
