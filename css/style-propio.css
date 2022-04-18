@@ -15,15 +15,29 @@ body {
     background-color: #3b3a3a;
     color: white;
 }
+
+.bajada {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    text-align: center;
+}
+.bajada h1 {
+    color: #726f6f;
+    font-size: 50px;
+}
+.bajada p {
+    color: white;
+    font-size: medium;
+}
 .segmento {
-    margin-top: 100px;
     text-align: center;
     color: white;
 }
 .segmento h2 {
     color: #726f6f;
     display: flex;
-    margin-top: 70px;
+    margin-top: 30px;
     justify-content: center;
     width: 100%;
     font-size: 45px;
@@ -148,11 +162,19 @@ footer div p {
     100% { color: #726f6f; }
 }
 
+.bajada h1 {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
 .segmento h2 {
     animation-name: mi-animacion;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-delay: 1s;
 }
 
