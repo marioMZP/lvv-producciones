@@ -7,6 +7,7 @@ body {
 body {
     background-color: #3b3a3a;
 }
+
 .offcanvas-header {
     background-color: #3b3a3a;
     color: white;
@@ -18,17 +19,18 @@ body {
 
 .bajada {
     display: flex;
-    margin-top: 60px;
+    margin-top: 20px;
     flex-direction: column;
     text-align: center;
 }
 .bajada h1 {
     color: #726f6f;
-    font-size: 50px;
+    font-size: 40px;
 }
 .bajada p {
     color: white;
     font-size: medium;
+    text-decoration: none;
 }
 .segmento {
     text-align: center;
@@ -40,7 +42,7 @@ body {
     margin-top: 30px;
     justify-content: center;
     width: 100%;
-    font-size: 45px;
+    font-size: 30px;
 }
 .small {
     color: white;
@@ -60,7 +62,7 @@ footer div p {
 .titulo {
     color: #726f6f;
     display: flex;
-    margin-top: 70px;
+    margin-top: 30px;
     justify-content: center;
     width: 100%;
 }
