@@ -1,0 +1,71 @@
+//NINIOMAFIA
+/* NINIOMAFIA*/
+body {
+    background-color: $colorPrincipal;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    color: $colorTitulos;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.video-responsive {
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.video-responsive iframe {
+	height: 60%; 
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+ .ninio__description {
+     display: inline-block;
+     padding: 15px;
+     color: white;
+     text-align: center;
+     margin: 20 px 40px;
+     img {
+         max-width: 50px;
+         max-height: none;
+     }
+ }
+
+ .row {
+     display: flex;
+     justify-content: center;
+ }
+
+ .col-sm-2 img {
+     max-width: 100%;
+     max-height: none;
+ }
+ .col-sm-2 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.2);
+   }
+
+
+ footer {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        color: white;
+        margin-top: 5px;
+        margin-bottom: auto;
+        text-align: center;
+    }
+}

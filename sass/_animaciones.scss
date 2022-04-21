@@ -1,0 +1,54 @@
+/* ANIMACIONES-INDEX */
+@keyframes mi-animacion {
+    0% { color: #726f6f; }
+    10% { color: #4d4a4a; }
+    20% { color: #3a3838; }
+    30% { color: #222121; }
+    40% { color: #141414; }
+    50% { color: #000000; }
+    60% { color: #141414; }
+    70% { color: #222121; }
+    80% { color: #3a3838; }
+    90% { color: #4d4a4a; }
+    100% { color: #726f6f; }
+}
+
+.bajada h1 {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
+.segmento h2 {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+
+/* ANIMACION NINIO */
+@keyframes mi-animacion {
+    0% { color: #726f6f; }
+    10% { color: #4d4a4a; }
+    20% { color: #3a3838; }
+    30% { color: #222121; }
+    40% { color: #141414; }
+    50% { color: #000000; }
+    60% { color: #141414; }
+    70% { color: #222121; }
+    80% { color: #3a3838; }
+    90% { color: #4d4a4a; }
+    100% { color: #726f6f; }
+}
+
+.titulo {
+    animation-name: mi-animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
