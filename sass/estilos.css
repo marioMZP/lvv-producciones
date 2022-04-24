@@ -1,4 +1,222 @@
 /*VARS*/
+/*INDEX*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3b3a3a;
+}
+
+.offcanvas-header {
+  background-color: #3b3a3a;
+  color: white;
+}
+
+.offcanvas-body {
+  background-color: #3b3a3a;
+  color: white;
+}
+
+.bajada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.bajada .bajada__bajada {
+  color: #726f6f;
+  font-size: 40px;
+}
+
+.bajada .bajada__parrafo {
+  color: white;
+  font-size: medium;
+}
+
+.bajada .bajada__anc {
+  text-decoration: none;
+}
+
+.segmento {
+  text-align: center;
+  color: white;
+}
+
+.segmento h2 {
+  color: #726f6f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+/* NINIOMAFIA*/
+body {
+  background-color: #3b3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  color: #726f6f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.video-responsive {
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.video-responsive iframe {
+  height: 60%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ninio__description {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin: 20 px 40px;
+}
+
+.ninio__description img {
+  max-width: 50px;
+  max-height: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-sm-2 img {
+  max-width: 100%;
+  max-height: none;
+}
+
+.col-sm-2 img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.bajada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.bajada .bajada__bajada {
+  color: #726f6f;
+  font-size: 40px;
+}
+
+.bajada .bajada__parrafo {
+  color: white;
+  font-size: large;
+}
+
+.segmento {
+  text-align: center;
+  color: white;
+}
+
+.segmento h4 {
+  color: #726f6f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: auto;
+  text-align: center;
+}
+
 /*VARS*/
 /* RESPONSIVE NINIO*/
 @media screen and (min-width: 1024px) {
@@ -25,6 +243,17 @@
     max-height: 100%;
   }
   footer {
+    display: contents;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+  }
+}
+
+/* LA LOOPERA BAILABLE RESPONSIVE*/
+/* LA LOOPERA RESPONSIVE */
+@media screen and (min-width: 1024px) {
+  .pie {
     display: contents;
     -webkit-box-pack: baseline;
         -ms-flex-pack: baseline;
@@ -178,176 +407,5 @@
           animation-duration: 4s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
-}
-
-/*INDEX*/
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #3b3a3a;
-}
-
-.offcanvas-header {
-  background-color: #3b3a3a;
-  color: white;
-}
-
-.offcanvas-body {
-  background-color: #3b3a3a;
-  color: white;
-}
-
-.bajada {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 80px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-}
-
-.bajada .bajada__bajada {
-  color: #726f6f;
-  font-size: 40px;
-}
-
-.bajada .bajada__parrafo {
-  color: white;
-  font-size: medium;
-}
-
-.bajada .bajada__anc {
-  text-decoration: none;
-}
-
-.segmento {
-  text-align: center;
-  color: white;
-}
-
-.segmento h2 {
-  color: #726f6f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  font-size: 30px;
-}
-
-footer div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer p {
-  color: white;
-  margin-top: 5px;
-  margin-bottom: auto;
-  text-align: center;
-}
-
-/* NINIOMAFIA*/
-body {
-  background-color: #3b3a3a;
-  margin: 0;
-  padding: 0;
-}
-
-.titulo {
-  color: #726f6f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 70px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.video-responsive {
-  height: auto;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  position: relative;
-}
-
-.video-responsive iframe {
-  height: 60%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.ninio__description {
-  display: inline-block;
-  padding: 15px;
-  color: white;
-  text-align: center;
-  margin: 20 px 40px;
-}
-
-.ninio__description img {
-  max-width: 50px;
-  max-height: none;
-}
-
-#grilla {
-  margin-top: 50px;
-}
-
-.conteiner-fluid {
-  margin-top: 0;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-}
-
-.col-sm-2 img {
-  max-width: 100%;
-  max-height: none;
-}
-
-.col-sm-2 img:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-footer div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer p {
-  color: white;
-  margin-top: 5px;
-  margin-bottom: auto;
-  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */

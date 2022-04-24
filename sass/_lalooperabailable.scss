@@ -1,0 +1,40 @@
+.bajada {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    text-align: center;
+    & &__bajada {
+        color: $colorTitulos;
+        font-size: 40px;
+    }
+    & &__parrafo {
+        color: white;
+        font-size: large;
+    }
+}
+
+.segmento {
+    text-align: center;
+    color: white;
+    h4 {
+        color: $colorTitulos;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+footer {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        color: white;
+        margin-top: 5px;
+        margin-bottom: auto;
+        text-align: center;
+    }
+}
