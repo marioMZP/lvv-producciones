@@ -183,6 +183,13 @@ footer p {
   font-size: large;
 }
 
+.grid-item img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .segmento {
   text-align: center;
   color: white;
@@ -215,6 +222,73 @@ footer p {
   margin-top: 5px;
   margin-bottom: auto;
   text-align: center;
+}
+
+#carouselExampleInterval {
+  max-width: 70%;
+  max-height: auto;
+  margin: 0 auto;
+}
+
+.bajada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.bajada .bajada__bajada {
+  color: #726f6f;
+  font-size: 40px;
+}
+
+.bajada .bajada__parrafo {
+  color: white;
+  font-size: medium;
+}
+
+.bajada img {
+  width: 50px;
+}
+
+.bajada a {
+  text-decoration: none;
+}
+
+.introduccion__percu {
+  width: 70%;
+  height: 400px;
+  margin: 20px auto;
+  overflow: auto;
+}
+
+.introduccion__percu h2 {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  background: #333333;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.introduccion__percu p {
+  text-align: center;
+  color: white;
+}
+
+.introduccion__percu::-webkit-scrollbar {
+  width: 5px;
+}
+
+.introduccion__percu::-webkit-scrollbar-thumb {
+  background-color: #726f6f;
 }
 
 /*VARS*/
@@ -258,6 +332,25 @@ footer p {
     -webkit-box-pack: baseline;
         -ms-flex-pack: baseline;
             justify-content: baseline;
+  }
+}
+
+/*TROUPE PERCUSION*/
+@media screen and (min-width: 1024px) {
+  .bloque {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #carouselExampleInterval {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto 30px;
+  }
+  .introduccion__percu {
+    max-width: 520px;
+    max-height: 500px;
+    margin: 20px auto;
   }
 }
 
@@ -397,6 +490,56 @@ footer p {
 }
 
 .titulo {
+  -webkit-animation-name: mi-animacion;
+          animation-name: mi-animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+/* TROUPE*/
+@keyframes mi-animacion {
+  0% {
+    color: #726f6f;
+  }
+  10% {
+    color: #4d4a4a;
+  }
+  20% {
+    color: #3a3838;
+  }
+  30% {
+    color: #222121;
+  }
+  40% {
+    color: #141414;
+  }
+  50% {
+    color: #000000;
+  }
+  60% {
+    color: #141414;
+  }
+  70% {
+    color: #222121;
+  }
+  80% {
+    color: #3a3838;
+  }
+  90% {
+    color: #4d4a4a;
+  }
+  100% {
+    color: #726f6f;
+  }
+}
+
+.introduccion__percu h2 {
   -webkit-animation-name: mi-animacion;
           animation-name: mi-animacion;
   -webkit-animation-iteration-count: infinite;

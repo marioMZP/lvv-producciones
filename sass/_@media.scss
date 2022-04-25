@@ -33,3 +33,23 @@
         justify-content: baseline;
     }
 }
+
+//TROUPE PERCUSION//
+/*TROUPE PERCUSION*/
+
+@media screen and (min-width: 1024px) {
+    .bloque {
+        display: flex;
+    }
+    #carouselExampleInterval {
+        max-width: 500px;
+        max-height: 500px;
+        margin: 0 auto 30px;
+    }
+    .introduccion__percu {
+        max-width: 520px;
+        max-height: 500px;
+        margin: 20px auto;
+    }
+}
+    

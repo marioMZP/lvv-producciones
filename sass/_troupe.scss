@@ -1,0 +1,59 @@
+
+
+
+#carouselExampleInterval {
+    max-width: 70%;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.bajada {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    text-align: center;
+    & &__bajada {
+        color: $colorTitulos;
+        font-size: 40px;
+    }
+    & &__parrafo {
+        color: white;
+        font-size: medium;
+    }
+    img {
+        width: 50px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.introduccion__percu {
+    width: 70%;
+    height: 400px;
+    margin: 20px auto;
+    overflow: auto;
+    h2 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        background: #333333;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        
+        
+    }
+    p {
+        text-align: center;
+        color: white;
+    }
+}
+.introduccion__percu::-webkit-scrollbar {
+    width: 5px;
+}
+.introduccion__percu::-webkit-scrollbar-thumb {
+    background-color: $colorTitulos;
+}
+
+        
