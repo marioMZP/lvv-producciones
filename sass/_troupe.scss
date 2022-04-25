@@ -33,6 +33,7 @@
     height: 400px;
     margin: 20px auto;
     overflow: auto;
+    background: radial-gradient($colorTitulos, $colorPrincipal);
     h2 {
         width: 100%;
         height: auto;

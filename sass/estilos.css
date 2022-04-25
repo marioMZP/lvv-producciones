@@ -265,6 +265,7 @@ footer p {
   height: 400px;
   margin: 20px auto;
   overflow: auto;
+  background: radial-gradient(#726f6f, #3b3a3a);
 }
 
 .introduccion__percu h2 {
@@ -289,6 +290,93 @@ footer p {
 
 .introduccion__percu::-webkit-scrollbar-thumb {
   background-color: #726f6f;
+}
+
+.musica {
+  margin: 50px auto 10px;
+  text-align: center;
+}
+
+.musica h2 {
+  font-size: 40px;
+}
+
+.musica p {
+  color: white;
+  margin: 5px;
+}
+
+.segmento2 h3 {
+  text-align: center;
+  color: #726f6f;
+}
+
+.segmento2 p {
+  color: white;
+}
+
+.segmento2 ul li {
+  color: white;
+}
+
+.contenedor-grilla {
+  margin: 20px 10px;
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+  -ms-grid-columns: 4, 170px;
+      grid-template-columns: 4, 170px;
+  -ms-grid-rows: 5, 60px;
+      grid-template-rows: 5, 60px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+}
+
+.item img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.item:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+}
+
+.item:nth-child(2) {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+}
+
+.item:nth-child(3) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+}
+
+.item:nth-child(4) {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
 }
 
 /*VARS*/
@@ -324,7 +412,6 @@ footer p {
   }
 }
 
-/* LA LOOPERA BAILABLE RESPONSIVE*/
 /* LA LOOPERA RESPONSIVE */
 @media screen and (min-width: 1024px) {
   .pie {
@@ -354,6 +441,7 @@ footer p {
   }
 }
 
+/* TU PROYECTO */
 /* ANIMACIONES-INDEX */
 @-webkit-keyframes mi-animacion {
   0% {
@@ -540,6 +628,56 @@ footer p {
 }
 
 .introduccion__percu h2 {
+  -webkit-animation-name: mi-animacion;
+          animation-name: mi-animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+/* ANIMACIONES TU PROYECTO*/
+@keyframes mi-animacion {
+  0% {
+    color: #726f6f;
+  }
+  10% {
+    color: #4d4a4a;
+  }
+  20% {
+    color: #3a3838;
+  }
+  30% {
+    color: #222121;
+  }
+  40% {
+    color: #141414;
+  }
+  50% {
+    color: #000000;
+  }
+  60% {
+    color: #141414;
+  }
+  70% {
+    color: #222121;
+  }
+  80% {
+    color: #3a3838;
+  }
+  90% {
+    color: #4d4a4a;
+  }
+  100% {
+    color: #726f6f;
+  }
+}
+
+.musica h2 {
   -webkit-animation-name: mi-animacion;
           animation-name: mi-animacion;
   -webkit-animation-iteration-count: infinite;

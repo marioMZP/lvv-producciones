@@ -1,0 +1,61 @@
+.musica {
+    h2 {
+        font-size: 40px;
+    }
+    margin: 50px auto 10px;
+    text-align: center;
+    p {
+        color: white;
+        margin: 5px;
+    }
+}
+
+.segmento2 {
+    h3 {
+        text-align: center;
+        color: $colorTitulos;
+    }
+    p {
+        color: white;
+    }
+    ul {
+        li {
+            color: white;
+        }
+    }
+}
+
+.contenedor-grilla {
+    margin: 20px 10px;
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+    grid-template-columns: 4, 170px;
+    grid-template-rows: 5, 60px;
+}    
+.item img {
+    width: 100%;
+    height: 100%;
+}
+.item img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+.item:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 2/6;
+}
+.item:nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+.item:nth-child(4) {
+    grid-column: 4/5;
+    grid-row: 2/6;
+}
+
